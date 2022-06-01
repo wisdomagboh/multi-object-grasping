@@ -34,15 +34,14 @@ More information can be found in our paper [ISRR 2022 (under review)](https://ar
     $ bash run_exps.sh
 
 	2. Generate simulation results
- 		$ python sim_plots_summary.py
+		$ python sim_plots_summary.py
 
   3. Physical picking experiments - launch two ros nodes.
-    $ python3.5 rw_planner.py
-    $ python3.5 arm_motion_generator.py 'grasp_type (MOG or SOG)' 'scene_number'
+		$ python3.5 rw_planner.py
+		$ python3.5 arm_motion_generator.py 'grasp_type (MOG or SOG)' 'scene_number'
 
-  4. Generate physical experimental results
-    $ python rw_table_data.py
-
+	4. Generate physical experimental results
+		$ python rw_table_data.py
 
 ## Website
 
