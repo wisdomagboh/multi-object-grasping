@@ -7,7 +7,7 @@ Here, we provide the source code for our implementation.
 More information can be found in our paper [ISRR 2022 (under review)](https://arxiv.org/abs/1903.08470)
 
 <img src="mog_1.gif" scale="1.2"/>
-<img src="mog_2.gif" scale="1.0"/>
+<img src="mog_2.gif" scale="0.8"/>
 
 ## Getting started
 
