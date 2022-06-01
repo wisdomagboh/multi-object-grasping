@@ -36,7 +36,7 @@ More information can be found in our paper [ISRR 2022 (under review)](https://ar
 	2. Generate simulation results
 		$ python sim_plots_summary.py
 
-  3. Physical picking experiments - launch two ros nodes.
+	3. Physical picking experiments - launch two ros nodes.
 		$ python3.5 rw_planner.py
 		$ python3.5 arm_motion_generator.py 'grasp_type (MOG or SOG)' 'scene_number'
 
