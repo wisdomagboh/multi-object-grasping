@@ -31,7 +31,7 @@ More information can be found in our paper [ISRR 2022 (under review)](https://ar
 ## Running experiments
 
 	1. Simulation experiments
-    $ bash run_exps.sh
+		$ bash run_exps.sh
 
 	2. Generate simulation results
 		$ python sim_plots_summary.py
