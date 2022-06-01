@@ -1,0 +1,99 @@
+<mujocoinclude>
+      <!--Quad 1 -->
+      <!-- <body name="object_1" pos="1.95 0.02 0.397" quat="1 0 0 0" childclass="blue">
+        <geom name="obj_1_bar_1" type="box" pos="-0.00249337 0.01479132 0." quat="1. 0. 0. 0." size="0.015 0.0005 0.015"/>
+        <geom name="obj_1_bar_2" type="box" pos="0.015 0. 0" quat="0.76361798 0. 0. -0.64566832" size="0.015 0.0005 0.015"/>
+        <geom name="obj_1_bar_3" type="box" pos="0.00249337 -0.01479132 0" quat="1. 0. 0. 0." size="0.015 0.0005 0.015"/>
+        <geom name="obj_1_bar_4" type="box" pos="-0.015 0 0" quat="0.76361798 0. 0. -0.64566832" size="0.015 0.0005 0.015"/>
+        <!geom name="obj_1_cylinder" type="cylinder" pos="0.0 0. 0." quat="1. 0. 0. 0." size="0.01479131817100975 0.015"/>
+        <joint name="object_free_1" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Quad 2 -->
+      <!-- <body name="object_2" pos="1.95 -0.02 0.395" quat="1 0 0 0" childclass="yellow">
+        <geom name="obj_2_bar_1" type="box" pos="-0.00360003 0.01197037 0." quat="1. 0. 0. 0." size="0.016 0.0005 0.0125"/>
+        <geom name="obj_2_bar_2" type="box" pos="0.016 0.0 0" quat="0.80249679 0. 0. -0.59665643" size="0.0125 0.0005 0.0125"/>
+        <geom name="obj_2_bar_3" type="box" pos="0.00360003 -0.01197037 0" quat="1. 0. 0. 0." size="0.016 0.0005 0.0125"/>
+        <geom name="obj_2_bar_4" type="box" pos="-0.016 0.0 0" quat="0.80249679 0. 0. -0.59665643" size="0.0125 0.0005 0.0125"/>
+        <!geom name="obj_2_cylinder" type="cylinder" pos="0.0 0. 0." quat="1. 0. 0. 0." size="0.01197037 0.0125"/>
+        <joint name="object_free_2" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Quad 3 -->
+      <!-- <body name="object_3" pos="1.85 -0.02 0.397" quat="1 0 0 0" childclass="orange">
+        <geom name="obj_3_bar_1" type="box" pos="0. 0.014 0." quat="1. 0. 0. 0." size="0.014 0.0005 0.014"/>
+        <geom name="obj_3_bar_2" type="box" pos="0.014 0. 0" quat="0.7071 0. 0. -0.7071" size="0.014 0.0005 0.014"/>
+        <geom name="obj_3_bar_3" type="box" pos="0. -0.014 0" quat="1. 0. 0. 0." size="0.014 0.0005 0.014"/>
+        <geom name="obj_3_bar_4" type="box" pos="-0.014 0.0 0" quat="0.7071 0. 0. -0.7071" size="0.014 0.0005 0.014"/>
+        <!geom name="obj_3_cylinder" type="cylinder" pos="0.0 0. 0." quat="1. 0. 0. 0." size="0.014 0.014"/>
+        <joint name="object_free_3" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Quad 4 -->
+      <!-- <body name="object_4" pos="1.85 0.02 0.397" quat="1 0 0 0" childclass="yellow">
+        <geom name="obj_4_bar_1" type="box" pos="0. 0.0145 0." quat="1. 0. 0. 0." size="0.0145 0.0005 0.0145"/>
+        <geom name="obj_4_bar_2" type="box" pos="0.0145 0. 0" quat="0.7071 0. 0. -0.7071" size="0.0145 0.0005 0.0145"/>
+        <geom name="obj_4_bar_3" type="box" pos="0. -0.0145 0" quat="1. 0. 0. 0." size="0.0145 0.0005 0.0145"/>
+        <geom name="obj_4_bar_4" type="box" pos="-0.0145 0.0 0" quat="0.7071 0. 0. -0.7071" size="0.0145 0.0005 0.0145"/>
+        <!geom name="obj_4_cylinder" type="cylinder" pos="0.0 0. 0." quat="1. 0. 0. 0." size="0.0145 0.0145"/>
+        <joint name="object_free_4" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Quad 5 -->
+      <!-- <body name="object_5" pos="1.90 0.02 0.397" quat="1 0 0 0" childclass="yellow">
+        <geom name="obj_5_bar_1" type="box" pos="0. 0.0125 0." quat="1. 0. 0. 0." size="0.0125 0.0005 0.015"/>
+        <geom name="obj_5_bar_2" type="box" pos="0.0125 0. 0" quat="0.7071 0. 0. -0.7071" size="0.0125 0.0005 0.015"/>
+        <geom name="obj_5_bar_3" type="box" pos="0. -0.0125 0" quat="1. 0. 0. 0." size="0.0125 0.0005 0.015"/>
+        <geom name="obj_5_bar_4" type="box" pos="-0.0125 0.0 0" quat="0.7071 0. 0. -0.7071" size="0.0125 0.0005 0.015"/>
+        <!geom name="obj_5_cylinder" type="cylinder" pos="0.0 0. 0." quat="1. 0. 0. 0." size="0.0125 0.015"/>
+        <joint name="object_free_5" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Triangle 6 -->
+      <!-- <body name="object_6" pos="1.85 0.02 0.397" quat="1 0 0 0" childclass="red">
+        <geom name="obj_6_bar_1" type="box" pos="0.  0.01818653 0." quat="1. 0. 0. 0." size="0.021 0.0005 0.015"/>
+        <geom name="obj_6_bar_2" type="box" pos="0.0105 0. 0" quat="0.8660254 0. 0. 0.5" size="0.021 0.0005 0.015"/>
+        <geom name="obj_6_bar_3" type="box" pos="-0.0105  0. 0" quat="0.8660254 0. 0. -0.5" size="0.021 0.0005 0.015"/>
+        <joint name="object_free_6" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Triangle-like-->
+      <!-- <body name="object_7" pos="1.85 0.02 0.397" quat="1 0 0 0" childclass="green">
+        <geom name="obj_7_bar_1" type="box" pos="0.  0.01661324 0." quat="1. 0. 0. 0." size="0.02 0.0005 0.015"/>
+        <geom name="obj_7_bar_2" type="box" pos="0.01449996 0. 0" quat="0.81064412 0. 0. 0.58553916" size="0.0175 0.0005 0.015"/>
+        <geom name="obj_7_bar_3" type="box" pos="-0.01449996  0. 0" quat="0.81064412 0. 0. -0.58553916" size="0.0175 0.0005 0.015"/>
+        <geom name="obj_7_bar_4" type="box" pos="0. -0.01661324 0" quat="1 0. 0. 0." size="0.009 0.0005 0.015"/>
+        <joint name="object_free_7" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Triangle-like-->
+      <!-- <body name="object_8" pos="1.85 -0.02 0.394" quat="1 0 0 0" childclass="orange">
+        <geom name="obj_8_bar_1" type="box" pos="0.  0.01503951 0." quat="1. 0. 0. 0." size="0.018 0.0005 0.011"/>
+        <geom name="obj_8_bar_2" type="box" pos="0.01424991 0. 0" quat="0.78801698 0. 0. 0.6156535" size="0.0155 0.0005 0.011"/>
+        <geom name="obj_8_bar_3" type="box" pos="-0.01424991  0. 0" quat="0.78801698 0. 0. -0.6156535" size="0.0155 0.0005 0.011"/>
+        <geom name="obj_8_bar_4" type="box" pos="0. -0.01503951 0" quat="1 0. 0. 0." size="0.0105 0.0005 0.011"/>
+        <joint name="object_free_8" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Pentagon - blue-->
+      <!-- <body name="object_9" pos="1.95 -0.02 0.394" quat="1 0 0 0" childclass="blue">
+        <geom name="obj_9_bar_1" type="box" pos="0.  0.01769668 0." quat="1. 0. 0. 0." size="0.0115 0.0005 0.01"/>
+        <geom name="obj_9_bar_2" type="box" pos="0.0150537 0.00675953 0" quat="0.80901699 0. 0. -0.58778525" size="0.0115 0.0005 0.01"/>
+        <geom name="obj_9_bar_3" type="box" pos="-0.0150537 0.00675953 0" quat="0.80901699 0. 0. 0.58778525" size="0.0115 0.0005 0.01"/>
+        <geom name="obj_9_bar_4" type="box" pos="0.0093037  -0.01093715 0" quat="0.95105652 0. 0. 0.30901699" size="0.0115 0.0005 0.01"/>
+        <geom name="obj_9_bar_5" type="box" pos="-0.0093037  -0.01093715 0" quat="0.95105652 0. 0. -0.30901699" size="0.0115 0.0005 0.01"/>
+        <joint name="object_free_9" type="free" limited='false' damping="0.0" />
+      </body> -->
+
+      <!--Pentagon - pink-->
+      <body name="object_10" pos="1.95 0.02 0.394" quat="1 0 0 0" childclass="pink">
+        <geom name="obj_10_bar_1" type="box" pos="0.   0.0184661 0." quat="1. 0. 0. 0." size="0.0115 0.0005 0.015"/>
+        <geom name="obj_10_bar_2" type="box" pos="0.0157082 0.00705342 0" quat="0.80901699 0. 0. -0.58778525" size="0.012 0.0005 0.015"/>
+        <geom name="obj_10_bar_3" type="box" pos="-0.0157082 0.00705342 0" quat="0.80901699 0. 0. 0.58778525" size="0.012 0.0005 0.015"/>
+        <geom name="obj_10_bar_4" type="box" pos="0.0097082 -0.01141268 0" quat="0.95105652 0. 0. 0.30901699" size="0.012 0.0005 0.015"/>
+        <geom name="obj_10_bar_5" type="box" pos="-0.0097082 -0.01141268 0" quat="0.95105652 0. 0. -0.30901699" size="0.012 0.0005 0.015"/>
+        <joint name="object_free_10" type="free" limited='false' damping="0.0" />
+      </body>
+
+
+</mujocoinclude>

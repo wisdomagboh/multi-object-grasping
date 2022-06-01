@@ -1,0 +1,30 @@
+<mujocoinclude>
+<body name="red_hex_large" pos="980 0.02 0.394" quat="1 0 0 0" childclass="red">
+  <geom name="red_hex_large_bar_1" type="box" pos="1.75000000e-02 1.07156595e-18 0" quat="0 0 0 1" size="0.0005 0.0102 0.015"/>
+  <geom name="red_hex_large_bar_2" type="box" pos="0.00847215 -0.0153125   0." quat="-0.86142989  0. 0. 0.5078765" size="0.0005 0.0102 0.015"/>
+  <geom name="red_hex_large_bar_3" type="box" pos="-0.00847215 -0.0153125   0." quat="-0.5078765 0. 0. 0.86142989" size="0.0005 0.0102 0.015"/>
+  <geom name="red_hex_large_bar_4" type="box" pos="-1.75000000e-02  1.07156595e-18  0" quat="1. 0. 0. 0." size="0.0005 0.0102 0.015"/>
+  <geom name="red_hex_large_bar_5" type="box" pos="-0.00847215  0.0153125   0.  " quat="0.5078765  0. 0 0.86142989" size="0.0005 0.0102 0.015"/>
+  <geom name="red_hex_large_bar_6" type="box" pos="0.00847215 0.0153125  0" quat="0.86142989 0. 0. 0.5078765" size="0.0005 0.0102 0.015"/>
+
+  <site name="red_hex_large_point_1" type="sphere" pos="0 -0.02 0.015" size="0.001" rgba="0 0 0 0"/>
+  <site name="red_hex_large_point_2" type="sphere" pos="0 0.02 0.015" size="0.001" rgba="0 0 0 0"/>
+  <site name="red_hex_large_point_3" type="sphere" pos="0.0175 -0.01 0.015" size="0.001" rgba="0 0 0 0"/>
+  <site name="red_hex_large_point_4" type="sphere" pos="0.0175 0.01 0.015" size="0.001" rgba="0 0 0 0"/>
+  <site name="red_hex_large_point_5" type="sphere" pos="-0.0175 -0.01 0.015" size="0.001" rgba="0 0 0 0"/>
+  <site name="red_hex_large_point_6" type="sphere" pos="-0.0175 0.01 0.015" size="0.001" rgba="0 0 0 0"/>
+
+  <joint name="red_hex_large_joint" type="free" limited='false' damping="0.0" />
+</body>
+<body name="blue_quad" pos="900 0.02 0.397" quat="1 0 0 0" childclass="blue">
+  <geom name="blue_quad_bar_1" type="box" pos="-0.00249337 0.01479132 0." quat="1. 0. 0. 0." size="0.015 0.0005 0.015"/>
+  <geom name="blue_quad_bar_2" type="box" pos="0.015 0. 0" quat="0.76361798 0. 0. -0.64566832" size="0.015 0.0005 0.015"/>
+  <geom name="blue_quad_bar_3" type="box" pos="0.00249337 -0.01479132 0" quat="1. 0. 0. 0." size="0.015 0.0005 0.015"/>
+  <geom name="blue_quad_bar_4" type="box" pos="-0.015 0 0" quat="0.76361798 0. 0. -0.64566832" size="0.015 0.0005 0.015"/>
+  <site name="blue_quad_point_1" type="sphere" pos="0.01250663 0.01479132 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_quad_point_2" type="sphere" pos="-0.01749337  0.01479132 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_quad_point_3" type="sphere" pos="-0.01250663 -0.01479132 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_quad_point_4" type="sphere" pos="0.01749337 -0.01479132 0.015" size="0.001" rgba="1 0 0 0"/>
+  <joint name="blue_quad_joint" type="free" limited='false' damping="0.0" />
+</body>
+</mujocoinclude>

@@ -1,0 +1,15 @@
+<body name="pink_pentagon" pos="40 0.02 0.394" quat="1 0 0 0" childclass="pink">
+  <geom name="pink_pentagon_bar_1" type="box" pos="0.   0.0184661 0." quat="1. 0. 0. 0." size="0.0115 0.0005 0.015"/>
+  <geom name="pink_pentagon_bar_2" type="box" pos="0.0157082 0.00705342 0" quat="0.80901699 0. 0. -0.58778525" size="0.012 0.0005 0.015"/>
+  <geom name="pink_pentagon_bar_3" type="box" pos="-0.0157082 0.00705342 0" quat="0.80901699 0. 0. 0.58778525" size="0.012 0.0005 0.015"/>
+  <geom name="pink_pentagon_bar_4" type="box" pos="0.0097082 -0.01141268 0" quat="0.95105652 0. 0. 0.30901699" size="0.012 0.0005 0.015"/>
+  <geom name="pink_pentagon_bar_5" type="box" pos="-0.0097082 -0.01141268 0" quat="0.95105652 0. 0. -0.30901699" size="0.012 0.0005 0.015"/>
+
+  <site name="pink_pentagon_point_1" type="sphere" pos="0.0115    0.0184661 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="pink_pentagon_point_2" type="sphere" pos="-0.0115    0.0184661 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="pink_pentagon_point_3" type="sphere" pos="-4.00734582e-09 -1.84661029e-02 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="pink_pentagon_point_4" type="sphere" pos="-0.0194164  -0.00435926 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="pink_pentagon_point_5" type="sphere" pos="0.0194164  -0.00435926 0.015" size="0.001" rgba="1 0 0 0"/>
+
+  <joint name="pink_pentagon_joint" type="free" limited='false' damping="0.0" />
+</body>

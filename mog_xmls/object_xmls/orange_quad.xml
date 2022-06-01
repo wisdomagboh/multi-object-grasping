@@ -1,0 +1,11 @@
+<body name="orange_quad" pos="920 -0.02 0.397" quat="1 0 0 0" childclass="orange">
+  <geom name="orange_quad_bar_1" type="box" pos="0. 0.014 0." quat="1. 0. 0. 0." size="0.014 0.0005 0.014"/>
+  <geom name="orange_quad_bar_2" type="box" pos="0.014 0. 0" quat="0.7071 0. 0. -0.7071" size="0.014 0.0005 0.014"/>
+  <geom name="orange_quad_bar_3" type="box" pos="0. -0.014 0" quat="1. 0. 0. 0." size="0.014 0.0005 0.014"/>
+  <geom name="orange_quad_bar_4" type="box" pos="-0.014 0.0 0" quat="0.7071 0. 0. -0.7071" size="0.014 0.0005 0.014"/>
+  <site name="orange_quad_point_1" type="sphere" pos="0.014 0.014 0.014" size="0.001" rgba="1 0 0 0"/>
+  <site name="orange_quad_point_2" type="sphere" pos="-0.014 0.014 0.014" size="0.001" rgba="1 0 0 0"/>
+  <site name="orange_quad_point_3" type="sphere" pos="0.014 -0.014 0.014" size="0.001" rgba="1 0 0 0"/>
+  <site name="orange_quad_point_4" type="sphere" pos="-0.014 -0.014 0.014" size="0.001" rgba="1 0 0 0"/>
+  <joint name="orange_quad_joint" type="free" limited='false' damping="0.0" />
+</body>

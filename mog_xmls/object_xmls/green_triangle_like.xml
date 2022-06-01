@@ -1,0 +1,11 @@
+<body name="green_triangle_like" pos="905 0.02 0.397" quat="1 0 0 0" childclass="green">
+  <geom name="green_triangle_like_bar_1" type="box" pos="0.  0.01661324 0." quat="1. 0. 0. 0." size="0.02 0.0005 0.015"/>
+  <geom name="green_triangle_like_bar_2" type="box" pos="0.01449996 0. 0" quat="0.81064412 0. 0. 0.58553916" size="0.0175 0.0005 0.015"/>
+  <geom name="green_triangle_like_bar_3" type="box" pos="-0.01449996  0. 0" quat="0.81064412 0. 0. -0.58553916" size="0.0175 0.0005 0.015"/>
+  <geom name="green_triangle_like_bar_4" type="box" pos="0. -0.01661324 0" quat="1 0. 0. 0." size="0.009 0.0005 0.015"/>
+  <site name="green_triangle_like_point_1" type="sphere" pos="0.02 0.01661324 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="green_triangle_like_point_2" type="sphere" pos="-0.02 0.01661324 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="green_triangle_like_point_3" type="sphere" pos="-0.009 -0.01661324 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="green_triangle_like_point_4" type="sphere" pos="0.009 -0.01661324 0.015" size="0.001" rgba="1 0 0 0"/>
+  <joint name="green_triangle_like_joint" type="free" limited='false' damping="0.0" />
+</body>

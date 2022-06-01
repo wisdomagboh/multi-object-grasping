@@ -1,0 +1,12 @@
+<body name="small_yellow_cube" pos="651 0.02 0.397" quat="1 0 0 0" childclass="yellow">
+  <geom name="small_yellow_cube_bar_1" type="box" pos="0. 0.0125 0." quat="1. 0. 0. 0." size="0.0125 0.0005 0.015"/>
+  <geom name="small_yellow_cube_bar_2" type="box" pos="0.0125 0. 0" quat="0.7071 0. 0. -0.7071" size="0.0125 0.0005 0.015"/>
+  <geom name="small_yellow_cube_bar_3" type="box" pos="0. -0.0125 0" quat="1. 0. 0. 0." size="0.0125 0.0005 0.015"/>
+  <geom name="small_yellow_cube_bar_4" type="box" pos="-0.0125 0.0 0" quat="0.7071 0. 0. -0.7071" size="0.0125 0.0005 0.015"/>
+
+  <site name="small_yellow_cube_point_1" type="sphere" pos="0.0125 0.0125 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="small_yellow_cube_point_2" type="sphere" pos="-0.0125  0.0125 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="small_yellow_cube_point_3" type="sphere" pos="-0.0125 -0.0125 0.015" size="0.001" rgba="1 0 0 0"/>
+  <site name="small_yellow_cube_point_4" type="sphere" pos="0.0125 -0.0125 0.015" size="0.001" rgba="1 0 0 0"/>
+  <joint name="small_yellow_cube_joint" type="free" limited='false' damping="0.0" />
+</body>

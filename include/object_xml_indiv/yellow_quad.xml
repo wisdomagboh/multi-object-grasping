@@ -1,0 +1,7 @@
+<body name="yellow_quad" pos="1.95 -0.02 0.395" quat="1 0 0 0" childclass="yellow">
+  <geom name="yellow_quad_bar_1" type="box" pos="-0.00360003 0.01197037 0." quat="1. 0. 0. 0." size="0.016 0.0005 0.0125"/>
+  <geom name="yellow_quad_bar_2" type="box" pos="0.016 0.0 0" quat="0.80249679 0. 0. -0.59665643" size="0.0125 0.0005 0.0125"/>
+  <geom name="yellow_quad_bar_3" type="box" pos="0.00360003 -0.01197037 0" quat="1. 0. 0. 0." size="0.016 0.0005 0.0125"/>
+  <geom name="yellow_quad_bar_4" type="box" pos="-0.016 0.0 0" quat="0.80249679 0. 0. -0.59665643" size="0.0125 0.0005 0.0125"/>
+  <joint name="yellow_quad_joint" type="free" limited='false' damping="0.0" />
+</body>

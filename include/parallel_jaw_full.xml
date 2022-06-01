@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><mujocoinclude>
+    <body name="left_plate" pos="1.85 0.0425 0.4" quat="1 0 0 0">
+        <body name="left_plate_body" pos="0 0 0">
+            <geom name="left_plate_geom" pos="0 0 0.00" friction="0.001 0.001 0.001" size="0.01 0.005 0.015" type="box" rgba="0. 0. 0. 1." mass="1000" contype="1" conaffinity="1"/>
+            <site name="left_plate_point_1" pos="-0.01 0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+            <site name="left_plate_point_2" pos="0.01 0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+            <site name="left_plate_point_3" pos="0.01 -0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+            <site name="left_plate_point_4" pos="-0.01 -0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+        </body>
+    <!joint axis="1 0 0" damping="0." name="lp_x" pos="0 0 0" range="-1 1" type="slide"/>
+    <joint axis="0 1 0" damping="0." name="lp_y" pos="0 0 0" range="-1 1" type="slide"/>
+    <!joint axis="0 0 1" damping="0." name="lp_z" pos="0 0 0" range="-1 1" type="hinge"/>
+    </body>
+
+    <body name="right_plate" pos="1.85 -0.0425 0.4" quat="1 0 0 0">
+        <body name="right_plate_body" pos="0 0 0" quat="1 0 0 0">
+            <geom name="right_plate_geom" pos="0 0 0.00" friction="0.001 0.001 0.001" size="0.01 0.005 0.015" type="box" rgba="0. 0. 0. 1." mass="1000" contype="1" conaffinity="1"/>
+            <site name="right_plate_point_1" pos="-0.01 0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+            <site name="right_plate_point_2" pos="0.01 0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+            <site name="right_plate_point_3" pos="0.01 -0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+            <site name="right_plate_point_4" pos="-0.01 -0.005 0.015" size="0.001" type="sphere" rgba="1. 0. 0. 1."/>
+        </body>
+    <!joint axis="1 0 0" damping="0." name="rp_x" pos="0 0 0" range="-1 1" type="slide"/>
+    <joint axis="0 1 0" damping="0." name="rp_y" pos="0 0 0" range="-1 1" type="slide"/>
+    <!joint axis="0 0 1" damping="0." name="rp_z" pos="0 0 0" range="-1 1" type="hinge"/>
+    </body>
+
+</mujocoinclude>

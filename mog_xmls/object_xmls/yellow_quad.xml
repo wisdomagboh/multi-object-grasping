@@ -1,0 +1,13 @@
+<body name="yellow_quad" pos="655 -0.02 0.395" quat="1 0 0 0" childclass="yellow">
+  <geom name="yellow_quad_bar_1" type="box" pos="-0.00360003 0.01197037 0." quat="1. 0. 0. 0." size="0.016 0.0005 0.0125"/>
+  <geom name="yellow_quad_bar_2" type="box" pos="0.016 0.0 0" quat="0.80249679 0. 0. -0.59665643" size="0.0125 0.0005 0.0125"/>
+  <geom name="yellow_quad_bar_3" type="box" pos="0.00360003 -0.01197037 0" quat="1. 0. 0. 0." size="0.016 0.0005 0.0125"/>
+  <geom name="yellow_quad_bar_4" type="box" pos="-0.016 0.0 0" quat="0.80249679 0. 0. -0.59665643" size="0.0125 0.0005 0.0125"/>
+
+  <site name="yellow_quad_point_1" type="sphere" pos="0.01239997 0.01197037 0.0125" size="0.001" rgba="1 0 0 0"/>
+  <site name="yellow_quad_point_2" type="sphere" pos="-0.01960003  0.01197037 0.0125" size="0.001" rgba="1 0 0 0"/>
+  <site name="yellow_quad_point_3" type="sphere" pos="0.01960003 -0.01197037 0.0125" size="0.001" rgba="1 0 0 0"/>
+  <site name="yellow_quad_point_4" type="sphere" pos="-0.01239997 -0.01197037 0.0125" size="0.001" rgba="1 0 0 0"/>
+
+  <joint name="yellow_quad_joint" type="free" limited='false' damping="0.0" />
+</body>

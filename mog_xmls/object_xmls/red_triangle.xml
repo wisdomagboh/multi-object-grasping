@@ -1,0 +1,11 @@
+<body name="red_triangle" pos="990 0.02 0.397" quat="1 0 0 0" childclass="red">
+  <geom name="red_triangle_bar_1" type="box" pos="0.  0.01818653 0." quat="1. 0. 0. 0." size="0.021 0.0005 0.015"/>
+  <geom name="red_triangle_bar_2" type="box" pos="0.0105 0. 0" quat="0.8660254 0. 0. 0.5" size="0.021 0.0005 0.015"/>
+  <geom name="red_triangle_bar_3" type="box" pos="-0.0105  0. 0" quat="0.8660254 0. 0. -0.5" size="0.021 0.0005 0.015"/>
+
+  <site name="red_triangle_point_1" type="sphere" pos="0.021  0.018186531 0.015" size="0.001" rgba="1 1 0 0"/>
+  <site name="red_triangle_point_2" type="sphere" pos="-0.021  0.018186531 0.015" size="0.001" rgba="1 1 0 0"/>
+  <site name="red_triangle_point_3" type="sphere" pos="0. -0.018186531 0.015" size="0.001" rgba="1 1 0 0"/>
+
+  <joint name="red_triangle_joint" type="free" limited='false' damping="0.0" />
+</body>

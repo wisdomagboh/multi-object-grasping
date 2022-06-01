@@ -1,0 +1,11 @@
+<body name="orange_triangle_like" pos="921 -0.02 0.394" quat="1 0 0 0" childclass="orange">
+  <geom name="orange_triangle_like_bar_1" type="box" pos="0.  0.01503951 0." quat="1. 0. 0. 0." size="0.018 0.0005 0.011"/>
+  <geom name="orange_triangle_like_bar_2" type="box" pos="0.01424991 0. 0" quat="0.78801698 0. 0. 0.6156535" size="0.0155 0.0005 0.011"/>
+  <geom name="orange_triangle_like_bar_3" type="box" pos="-0.01424991  0. 0" quat="0.78801698 0. 0. -0.6156535" size="0.0155 0.0005 0.011"/>
+  <geom name="orange_triangle_like_bar_4" type="box" pos="0. -0.01503951 0" quat="1 0. 0. 0." size="0.0105 0.0005 0.011"/>
+  <site name="orange_triangle_like_point_1" type="sphere" pos="0.018 0.01503951 0.011" size="0.001" rgba="1 0 0 0"/>
+  <site name="orange_triangle_like_point_2" type="sphere" pos="-0.018 0.01503951 0.011" size="0.001" rgba="1 0 0 0"/>
+  <site name="orange_triangle_like_point_3" type="sphere" pos="-0.01049982 -0.01503951 0.011" size="0.001" rgba="1 0 0 0"/>
+  <site name="orange_triangle_like_point_4" type="sphere" pos="0.01049982 -0.01503951 0.011" size="0.001" rgba="1 0 0 0"/>
+  <joint name="orange_triangle_like_joint" type="free" limited='false' damping="0.0" />
+</body>

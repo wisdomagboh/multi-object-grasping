@@ -1,0 +1,13 @@
+<body name="blue_pentagon" pos="1.9 1 0.394" quat="1 0 0 0" childclass="blue">
+  <geom name="blue_pentagon_bar_1" type="box" pos="0.  0.01769668 0." quat="1. 0. 0. 0." size="0.0115 0.0005 0.01"/>
+  <geom name="blue_pentagon_bar_2" type="box" pos="0.0150537 0.00675953 0" quat="0.80901699 0. 0. -0.58778525" size="0.0115 0.0005 0.01"/>
+  <geom name="blue_pentagon_bar_3" type="box" pos="-0.0150537 0.00675953 0" quat="0.80901699 0. 0. 0.58778525" size="0.0115 0.0005 0.01"/>
+  <geom name="blue_pentagon_bar_4" type="box" pos="0.0093037  -0.01093715 0" quat="0.95105652 0. 0. 0.30901699" size="0.0115 0.0005 0.01"/>
+  <geom name="blue_pentagon_bar_5" type="box" pos="-0.0093037  -0.01093715 0" quat="0.95105652 0. 0. -0.30901699" size="0.0115 0.0005 0.01"/>
+  <site name="blue_pentagon_point_1" type="sphere" pos="0.0115 0.01769668 0.01" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_pentagon_point_2" type="sphere" pos="-0.0115 0.01769668 0.01" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_pentagon_point_3" type="sphere" pos="0.0186074  -0.00417762 0.01" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_pentagon_point_4" type="sphere" pos="-0.0186074  -0.00417762 0.01" size="0.001" rgba="1 0 0 0"/>
+  <site name="blue_pentagon_point_5" type="sphere" pos="0. -1.76966803e-02 0.01" size="0.001" rgba="1 0 0 0"/>
+  <joint name="blue_pentagon_joint" type="free" limited='false' damping="0.0" />
+</body>

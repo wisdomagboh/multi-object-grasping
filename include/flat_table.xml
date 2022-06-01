@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><mujocoinclude>
+  <!--Table-->
+  <body name="Table" pos="1.90 0. 0.033" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="table_object"  mass="100" size="0.8 0.8 0.35" rgba="1 1 1 1"/>
+
+  <body name="right_side" pos="-0.01 -0.56 0.333" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="right_side_wall" mass="0.00001" size="0.16 0.21 0.2" rgba="1 1 .3 0." contype="0" conaffinity="0" />
+  </body>
+
+  <body name="left_side" pos="-0.01 0.56 0.333" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="left_side_wall" mass="0.00001" size="0.16 0.21 0.2" rgba="1 1 .3 0." contype="0" conaffinity="0" />
+  </body>
+
+  <body name="back_side" pos="0.36 0. 0.333" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="back_side_wall" mass="0.00001" size="0.21 0.37 0.2" rgba="1 1 .3 0." contype="0" conaffinity="0" />
+  </body>
+
+  <body name="top_side" pos="-0.01 0. 0.521" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="top_side_wall" mass=".00001" size="0.16 0.35 0.02" rgba="1 1 1 0."  contype="0" conaffinity="0"/>
+  </body>
+
+  <!--Visualization only-->
+  <body name="right_side_viz" pos="-0.01 -0.36 0.333" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="right_side_wall_viz" mass="0.0001" size="0.16 0.01 0.2" rgba="1 1 .3 0." contype="0" conaffinity="0" />
+  </body>
+
+  <body name="left_side_viz" pos="-0.01 0.36 0.333" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="left_side_wall_viz" mass="0.0001" size="0.16 0.01 0.2" rgba="1 1 .3 0." contype="0" conaffinity="0"/>
+  </body>
+
+  <body name="back_side_viz" pos="0.16 0. 0.333" quat="1 0 0 0" childclass="low_friction">
+    <geom type="box" name="back_side_wall_viz" mass="0.00001" size="0.01 0.37 0.2" rgba="1 1 .3 0." contype="0" conaffinity="0"/>
+  </body>
+
+  </body>
+
+</mujocoinclude>
