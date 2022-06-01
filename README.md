@@ -7,10 +7,11 @@ Here, we provide the source code for our implementation.
 More information can be found in our paper [ISRR 2022 (under review)](https://arxiv.org/abs/1903.08470)
 
 <img src="mog_1.gif" scale="1.0"/>
+<img src="mog_1.gif" scale="1.0"/>
 
-## Getting Started
+## Getting started
 
-	1. Create and activate a virtual environment (Code was tested with Ubuntu 16.04 and python3.5)
+	1. Create and activate a virtual environment (Code was tested with Ubuntu    16.04 and python3.5)
 		$  virtualenv -p /usr/bin/python3.5 venv ; source venv/bin/activate
 
 	2. Install Physics Simulator Mujoco and dm_control in virtual env
