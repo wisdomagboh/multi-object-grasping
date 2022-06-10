@@ -18,6 +18,7 @@ from PIL import Image
 
 from resources import *
 
+
 parser = argparse.ArgumentParser(description='Multi-Object-Grasping')
 parser.add_argument('-l', '--obj_list', help='delimited list input', type=str)
 parser.add_argument('-l1', '--obj_pts', help='delimited list input', type=str)
@@ -54,9 +55,7 @@ def initialize_physics_env():
     # Set physics simulation parameters
     physics.model.opt.timestep = SIM_TIMESTEP
     physics.model.opt.integrator = SIM_INTEGRATOR
-    init_state = physics.get_state()
     N_QPOS = physics.data.qpos[:].shape[0]
-    physics.set_start_state(init_state[0:N_QPOS])
 
 def set_state(x_0):
     # Reset physics and set initial state
@@ -671,7 +670,7 @@ def capture_state_sequence_frames(grasp_X, fig_path):
 
     total_desired_frames = 25*3.
     frame_spacing = int(total_num_frames/total_desired_frames)
-    frame_indices = np.linspace(start=0, stop=total_num_frames, num=total_desired_frames, endpoint=False)
+    frame_indices = np.linspace(start=0, stop=int(total_num_frames), num=int(total_desired_frames), endpoint=False)
 
     frame_count = 0
     for frame_ind in frame_indices:
