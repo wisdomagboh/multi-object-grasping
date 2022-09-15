@@ -4,7 +4,7 @@ We consider the problem where multiple rigid convex polygonal objects rest in ra
 
 Here, we provide the source code for our implementation.
 
-More information can be found in our paper [ISRR 2022 (under review)](http://arxiv.org/abs/2206.00229)
+More information can be found in our paper [ISRR 2022](http://arxiv.org/abs/2206.00229)
 
 <img src="mog_1.gif" scale="1.2"/>
 <img src="mog_2.gif" scale="0.8"/>
