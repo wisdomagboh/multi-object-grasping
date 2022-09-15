@@ -45,7 +45,7 @@ More information can be found in our paper [ISRR 2022 (under review)](http://arx
 
 ## Website
 
-[ISRR 2022 (Under review)](https://sites.google.com/view/multi-object-grasping)
+[ISRR 2022](https://sites.google.com/view/multi-object-grasping)
 
 
 ## Have a question?
